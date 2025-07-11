@@ -11,7 +11,6 @@ vim.keymap.set("n", "<leader>c", ":nohl<CR>") -- Clear highlight w/ <leader> c
 vim.keymap.set("n", "<leader>bn", ":bn<CR>")
 vim.keymap.set("n", '<leader>bp', ':bp<CR>')
 
--- Plugin-related remaps ----------------------------------------------------
-vim.keymap.set("n", "<leader>b", ":NvimTreeToggle<CR>")
-vim.keymap.set("n", "<leader>p", ":Telescope find_files<CR>")
-vim.keymap.set("n", "<leader>t", ":TransparentToggle<CR>")
+-- tmux-like split
+vim.keymap.set("n", "<leader>\"", ":split<CR>")
+vim.keymap.set("n", "<leader>%", ":vsplit<CR>")

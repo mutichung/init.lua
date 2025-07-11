@@ -30,4 +30,3 @@ vim.opt.colorcolumn = "120"
 vim.opt.wildignorecase = true
 
 vim.cmd.colorscheme("onedark")
-vim.cmd.TransparentDisable()
