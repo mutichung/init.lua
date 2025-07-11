@@ -27,7 +27,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "120"
+vim.opt.wildignorecase = true
 
 vim.cmd.colorscheme("onedark")
-
-vim.opt.wildignorecase = true
+vim.cmd.TransparentDisable()
